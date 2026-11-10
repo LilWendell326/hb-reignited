@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140">
+  <defs>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2c27a"/>
+      <stop offset="0.5" stop-color="#a87a3d"/>
+      <stop offset="1" stop-color="#5e4220"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a221b"/>
+      <stop offset="1" stop-color="#110d0a"/>
+    </linearGradient>
+    <linearGradient id="fire" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#b8321a"/>
+      <stop offset="0.45" stop-color="#e2582a"/>
+      <stop offset="0.8" stop-color="#ffb14a"/>
+      <stop offset="1" stop-color="#fff1cf"/>
+    </linearGradient>
+  </defs>
+  <path d="M60 4 L112 20 L108 78 C104 106 84 124 60 136 C36 124 16 106 12 78 L8 20 Z" fill="url(#rim)" stroke="#000" stroke-width="2"/>
+  <path d="M60 14 L102 27 L99 77 C95 100 79 115 60 125 C41 115 25 100 21 77 L18 27 Z" fill="url(#face)"/>
+  <path d="M60 30 C66 46 82 52 80 76 C79 92 70 104 60 108 C50 104 41 92 40 76 C39 62 47 56 50 46 C53 56 56 58 58 60 C58 50 56 40 60 30 Z" fill="url(#fire)"/>
+  <path d="M60 64 C64 72 70 76 69 88 C68 96 64 100 60 102 C56 100 52 96 51 88 C51 80 56 76 60 64 Z" fill="#fff1cf" opacity="0.85"/>
+  <path d="M28 100 L92 100" stroke="#a87a3d" stroke-width="3"/>
+  <path d="M60 92 L60 120" stroke="#d9a85a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M50 102 L70 102" stroke="#d9a85a" stroke-width="5" stroke-linecap="round"/>
+</svg>
